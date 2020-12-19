@@ -13,5 +13,4 @@ Das Package kann wie folgt installiert werden:
 Das Package enthält aktuell 2 Klasse:
 
 1. x
-
 2. x
