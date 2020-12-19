@@ -18,7 +18,7 @@ The package currently contains 2 classes that can be imported:
 
 **Simplex**
 
-This class contains the simplex method. This makes it possible to solve a production planning problem with several machine bottlenecks.
+This class contains the simplex method. This makes it possible to solve a production planning problem with several machine bottlenecks. Please note that in this implementation not all special cases of the method are caught yet.
 
 The following inputs are necessary:
 - *unit_contribution_margins*: Uni contribution margin for each product 
