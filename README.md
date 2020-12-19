@@ -30,6 +30,9 @@ The outputs are:
 - *remaining_machine_time*: Remaining capacities for given machines
 - *profit*: Overall profit
 
+Following class functions are important:
+- *print_simplex()*: Print instance attributes
+- *solve()*: Solve problem
 
 **InventoryManagement**
 
@@ -46,6 +49,17 @@ The following inputs are necessary:
 - *daily_working_hours* (not required, default = 10): Working hours per day
 
 The outputs are:
+- *quantity*
+- *safety_stock*
+- *reorder_point*
+- *order_cost*
+- *holding_cost*
+- *total_cost*
+
+Following class functions are important:
+- *print_sq_policy()*: Print instance attributes
+- *calculate_sq_policy()*: Calculate outputs
+- *plot_sql_policty()*: Plot costs
 
 # 3 Literature/Acknowledgements
 
