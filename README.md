@@ -65,4 +65,4 @@ Following class functions are important:
 
 Bloech, J., Bogaschewsky, R., Götze, U., & Roland, F. (2001). Einführung in die Produktion (pp. 176-178). Heidelberg: Physica-Verlag.
 
-Link on TestPyPi: https://test.pypi.org/project/operations-management-methods/0.5/
+Package on TestPyPi: https://test.pypi.org/project/operations-management-methods/0.5/
