@@ -202,8 +202,3 @@ class InventoryManagement:
         plt.xlabel("Quantity", fontsize=14)
         plt.ylabel("Costs", fontsize=14)
         plt.show()
-        
-        
-
-        
-    
