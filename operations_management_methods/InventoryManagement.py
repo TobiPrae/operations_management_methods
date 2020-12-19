@@ -198,6 +198,8 @@ class InventoryManagement:
         ax.grid(color='lightgrey', linestyle='-', linewidth=1)
         ax.set_facecolor("white")
         ax.legend(fontsize=14, loc=4)
+        plt.axhline(self.total_cost, linestyle='--', color="black", alpha=0.6)
+        plt.axvline(self.quantity, linestyle='--', color="black", alpha=0.6)
         plt.title("Cost Development for Inventory Model", fontsize=16) 
         plt.xlabel("Quantity", fontsize=14)
         plt.ylabel("Costs", fontsize=14)
