@@ -30,7 +30,7 @@ The outputs are:
 - *remaining_machine_time*: Remaining capacities for given machines
 - *profit*: Overall profit
 
-Following class functions are important:
+Following class methods are important:
 - *print_simplex()*: Print instance attributes
 - *solve()*: Solve problem
 
@@ -56,7 +56,7 @@ The outputs are:
 - *holding_cost*
 - *total_cost*
 
-Following class functions are important:
+Following class methods are important:
 - *print_sq_policy()*: Print instance attributes
 - *calculate_sq_policy()*: Calculate outputs
 - *plot_sql_policty()*: Plot costs
