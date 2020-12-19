@@ -28,20 +28,21 @@ class Simplex:
         print(F"Remaining machine times: {self.remaining_machine_time}")
         print(F"Profit: {self.profit}")
 
-    def solve(self, unit_contribution_margins, machine_capacities, product_time_requirement):
+    def solve(self):
         """
         Description: Applies simplex algorithm to solve a linear optimization problem
         with multiple capacity constraints. Calculates optimal order quantities, remaining machine time and profit.
 
-        Args:
-        - unit_contribution_margins: A list that contains all contribution margins for each product
-        (e.g. [x1, x2])
-        - machine_capacities: A list that contains all machine capacities for each machine (e.g. [y1, y2])
-        - product_time_requirement: A list that contains for each machine the time each product takes to complete
+        Args: None
 
         Returns: Nothing
 
         """
+        
+        unit_contribution_margins = self.unit_contribution_margins
+        machine_capacities = self.machine_capacities
+        product_time_requirement = self.product_time_requirement
+        
         n_constraints = len(machine_capacities)
         n_variables = len(unit_contribution_margins)
 
