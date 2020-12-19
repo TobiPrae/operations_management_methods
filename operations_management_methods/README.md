@@ -21,14 +21,14 @@ The package currently contains 2 classes that can be imported:
 This class contains the simplex method. This makes it possible to solve a production planning problem with several machine bottlenecks.
 
 The following inputs are necessary:
-- unit_contribution_margins: Uni contribution margin for each product 
-- machine_capacities: Capacities for each given machine
-- product_time_requirement: Time requirement for each product on each machine
+- *unit_contribution_margins*: Uni contribution margin for each product 
+- *machine_capacities*: Capacities for each given machine
+- *product_time_requirement*: Time requirement for each product on each machine
 
 The outputs are:
-- production_quantities: Optimal order quantities for given products
-- remaining_machine_time: Remaining capacities for given machines
-- profit: Overall profit
+- *production_quantities*: Optimal order quantities for given products
+- *remaining_machine_time*: Remaining capacities for given machines
+- *profit*: Overall profit
 
 
 **InventoryManagement:**
