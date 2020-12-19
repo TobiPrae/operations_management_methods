@@ -16,7 +16,7 @@ The package can be installed as follows:
 
 The package currently contains 2 classes that can be imported:
 
-**Simplex:**
+**Simplex**
 
 This class contains the simplex method. This makes it possible to solve a production planning problem with several machine bottlenecks.
 
@@ -31,7 +31,7 @@ The outputs are:
 - *profit*: Overall profit
 
 
-**InventoryManagement:**
+**InventoryManagement**
 
 With this class it is possible to determine a sq-policy, where s denotes the re-order point and q the economic order quantity. The procedure implemented here takes uncertainty into account by including an in-stock rate and the standard deviations of demand and lead times. The Class can be used either for optimal production quantities or for optimal order quantities.
 
