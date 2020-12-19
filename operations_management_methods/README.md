@@ -10,4 +10,8 @@ Das Package kann wie folgt installiert werden:
 
 pip install -i https://test.pypi.org/simple/ operations-management-methods==0.5
 
+Das Package enthält aktuell 2 Klasse:
 
+1. x
+
+2. x
