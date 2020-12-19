@@ -19,4 +19,5 @@ This class contains the simplex method. This makes it possible to solve a produc
 2. **InventoryManagement:**
 
 Acknowledgements:
-- I used mainly this book as a source: Bloech, J., Bogaschewsky, R., Götze, U., & Roland, F. (2001). Einführung in die Produktion (pp. 176-178). Heidelberg: Physica-Verlag.
+
+I used mainly this book as a source *Bloech, J., Bogaschewsky, R., Götze, U., & Roland, F. (2001). Einführung in die Produktion (pp. 176-178). Heidelberg: Physica-Verlag.*
