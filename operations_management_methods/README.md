@@ -1,4 +1,4 @@
-# operations_management_methods
+# operations_management_methods (version == 0.5)
 
 This is a package for operations management that I am currently working on. The following packages are used:
 - numpy
@@ -8,7 +8,7 @@ This is a package for operations management that I am currently working on. The 
 
 Das Package kann wie folgt installiert werden:
 
-`pip install -i https://test.pypi.org/simple/ operations-management-methods==0.5`
+`pip install -i https://test.pypi.org/simple/ operations-management-methods==version`
 
 Das Package enthält aktuell 2 Klasse:
 
