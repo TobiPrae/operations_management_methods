@@ -12,7 +12,7 @@ The package can be installed as follows:
 
 `pip install -i https://test.pypi.org/simple/ operations-management-methods==version`
 
-# 2 Content
+# 2 Details
 
 The package currently contains 2 classes that can be imported:
 
