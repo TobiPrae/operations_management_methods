@@ -1,4 +1,4 @@
-# operations_management_methods (version == 0.7)
+# operations_management_methods (version == 0.8)
 
 # 1 Overview
 
