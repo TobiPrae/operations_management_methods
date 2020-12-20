@@ -34,6 +34,9 @@ Following class methods are important:
 - *print_simplex()*: Print instance attributes
 - *solve()*: Solve problem
 - *plot_production_quantities()*: Plot optimal production quantities for each product
+
+
+
 - *plot_capacities(): Plot initial and remaining capacities after optimization
 
 **InventoryManagement**
