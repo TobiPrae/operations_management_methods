@@ -34,8 +34,11 @@ Following class methods are important:
 - *print_simplex()*: Print instance attributes
 - *solve()*: Solve problem
 - *plot_production_quantities()*: Plot optimal production quantities for each product
+
 ![demo_pq](demo_pq.png)
+
 - *plot_capacities(): Plot initial and remaining capacities after optimization
+
 ![demo_cap](demo_cap.png)
 
 **InventoryManagement**
@@ -64,6 +67,7 @@ Following class methods are important:
 - *print_sq_policy()*: Print instance attributes
 - *calculate_sq_policy()*: Calculate outputs
 - *plot_sql_policty()*: Plot costs
+
 ![demo_sq](demo_sq.png)
 
 # 3 Literature/Acknowledgements
