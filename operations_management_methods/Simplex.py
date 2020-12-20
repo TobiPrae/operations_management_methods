@@ -172,7 +172,7 @@ class Simplex:
                 bottleneck.append(None)
 
         # Get row index for lowest non negative value in bottlenecks
-        row_index = bottleneck.index(min(bottleneck[:-1]))
+        row_index = bottleneck.index(min(element for element in bottleneck[:-1] if element is not None))
 
         # Get pivot element and divide pivot row through pivot_element to get pivot_element = 1
         pivot_element = simplex_table[row_index, col_index]
