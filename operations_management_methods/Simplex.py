@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 class Simplex:
@@ -201,3 +202,37 @@ class Simplex:
             optimal_solution = True
 
         return simplex_table, optimal_solution
+
+    def plot_capacities(self):
+        cap = self.machine_capacities
+        rem_time = self.remaining_machine_time
+        machines = [x for x in range(1, len(self.machine_capacities)+1)]
+
+        fig, ax = plt.subplots(figsize=(12, 6))
+        ax.bar(machines, cap, color="red", alpha=0.8)
+        ax.bar(machines, rem_time, color="green", alpha=0.8)
+        ax.set_xticks(machines)
+        ax.grid(color='lightgrey', linestyle='-', linewidth=1)
+        ax.set_axisbelow(True)
+        plt.title("Initial Capacity and Remaning Capacity after Optimization", fontsize=16) 
+        plt.xlabel("Machine", fontsize=14)
+        plt.ylabel("Quantity", fontsize=14)
+        plt.show()
+        
+    def plot_production_quantities(self):
+        prod_quantities = self.production_quantities
+        products = [x for x in range(1, len(self.production_quantities)+1)]
+
+        my_cmap = plt.get_cmap("viridis")
+        rescale = lambda prod_quantities: (prod_quantities - np.min(prod_quantities)) / (np.max(prod_quantities) - np.min(prod_quantities))
+
+        fig, ax = plt.subplots(figsize=(12, 6))
+        ax.barh(products, prod_quantities, color=my_cmap(rescale(prod_quantities)))
+        ax.set_yticks(products)
+        ax.grid(color='lightgrey', linestyle='-', linewidth=1)
+        ax.set_axisbelow(True)
+        plt.title("Optimal Production Quantities", fontsize=16) 
+        plt.xlabel("Quantity", fontsize=14)
+        plt.ylabel("Product", fontsize=14)
+        plt.gca().invert_yaxis()
+        plt.show()
